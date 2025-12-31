@@ -1,0 +1,47 @@
+<aside>
+    <div id="sidebar"  class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+            <li>
+                <a href="/">
+                    <i class="fa fa-table"></i>
+                    <span>Tabla de Asistencias</span>
+                </a>
+            </li>
+            <li>
+                <a href="/list/thursday">
+                    <i class="fa fa-calendar"></i>
+                    <span>Jueves</span>
+                </a>
+            </li>
+            <li>
+                <a href="/list/birthday">
+                    <i class="fa fa-gift"></i>
+                    <span>Cumpleaños</span>
+                </a>
+            </li>
+            <li>
+                <a href="/list/special">
+                    <i class="fa fa-heart"></i>
+                    <span>Juntadas Especiales</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="javascript:;" class="<%= req.originalUrl.includes('/historical')? 'active' : '' %>">
+                    <i class="fa fa-table"></i>
+                    <span>Tablas historicas</span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="<%= req.originalUrl === '/historical/2025' ? 'active' : '' %>" ><a  href="/historical/2025">Año 2025</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/rules">
+                    <i class="fa fa-bars"></i>
+                    <span>Reglas de Asistencias</span>
+                </a>
+            </li>
+        </ul>
+        <!-- sidebar menu end-->
+    </div>
+</aside>

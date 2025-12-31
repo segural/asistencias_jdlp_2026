@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* ARRANCA MAIN */
+.login-body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.form-signin .form-signin-heading {
+    background-color: #00783F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.signin {
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 27px;
+    font-weight: 300;
+    padding: 15px auto 10px;
+    background-color: #00783F;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.link {
+    padding-right: 5px;
+    text-decoration: none;
+    color: #7DB41E;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.fab {
+    padding-right: 10px;
+}
+
+.instructions-format {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+.main-forms-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 320px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.input {
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5pc;
+    margin: 5px;
+}
+
+.form-format {
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #ffffff;
+    border: 0;
+    outline: none;
+    color: #111111;
+    margin: 5px auto;
+    text-align: left;
+}
+
+p.feedback {
+    font-size: 12px;
+    font-weight: 400;
+    color: red;
+    margin: 5px auto;
+}
+
+.instructions-crear {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px 5px;
+}
+
+.entry-button {
+    display: block;
+    text-align: center;
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 25px auto;
+    background-color: #9D1D96;
+    border-radius: 4px;
+    border: #752157 2px solid;
+}
+
+.rememberMe-container {
+    display: flex;
+    max-width: 320px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* TERMINA MAIN */
+@media (min-width: 641px) {
+    .diferent-logins {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .main-forms-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 500px;
+        padding: 10px;
+    }
+
+    .form-format {
+        margin: 5px 10px;
+        text-align: left;
+    }
+
+    p.feedback {
+        margin: 5px 10px;
+    }
+}
+
+@media (min-width: 720px) {
+    .body {
+        background-image: url(../img/ADAMA03_tablet.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    .main-style {
+        margin-top: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .body {
+        background-image: url(../img/ADAMA03.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    .main-style {
+        margin-top: 300px;
+    }
+}
