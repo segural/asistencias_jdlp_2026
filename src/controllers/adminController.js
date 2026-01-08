@@ -74,7 +74,7 @@ const adminController = {
         if (req.body.type == "Jueves"){
             points = 2
         } else if (req.body.type == "Cumpleaños"){
-            points = 4
+            points = 2
         } else if (req.body.type == "Evento Especial") {
             points = req.body.specialPoints
         }
