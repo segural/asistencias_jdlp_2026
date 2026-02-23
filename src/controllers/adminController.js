@@ -157,7 +157,7 @@ const adminController = {
                             point: user.point + dayToUpdate.pointsAsigned,
                             present: user.present + 1,
                         })
-                    await user.createLog({adminid: req.session.userLogged.id, logType:"Asistencia", action:"Asistencia a cumpleaños", points: "+4", eventdate: dayToUpdate.date})
+                    await user.createLog({adminid: req.session.userLogged.id, logType:"Asistencia", action:"Asistencia a cumpleaños", points: "+2", eventdate: dayToUpdate.date})
                     }
                 }
             }
